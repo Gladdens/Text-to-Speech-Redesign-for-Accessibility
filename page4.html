@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://use.typekit.net/pso1cmb.css">
+  <link rel="icon" type="image/x-icon" href="images/fb.ico">
+  <!--code taken from https://www.w3schools.com/html/html_favicon.asp -->
+  <link rel="stylesheet" href="style.css">
+  <title>Facebook</title>
+</head>
+
+<body class="sidebar">
+  <!-- Iphone features -->
+  <div class="grid pad topbar">
+    <div class="span3 time sfPro">9:30</div>
+    <img class="span3 battery" src="images/battery.png">
+  </div>
+  <div class="grid pad nav">
+    <a class="span3" href="index.html"><img class="span3" src="images/logo.png"></a>
+
+    <!-- Facebook -->
+    <!-- Nav -->
+    <div class="span3 navBtnGrp">
+      <button class=" navBtn" id="addPost"><img class="threeBtn" src="images/add.jpg"></button>
+      <button class=" navBtn" id="searchBar"><img class="threeBtn" src="images/search.jpg"></button>
+      <button class=" navBtn" id="messenger"><img class="threeBtn" src="images/msg.jpg"></button>
+    </div>
+
+    <hr class="span6">
+
+    <!-- Adding Posts -->
+    <div class="grid span6">
+      <img src="images/pfp.png" class="span1 pfp" alt="pfp">
+      <form class="span5 whatsOnYourMind">
+        <input class="whatsOnYourMind" type="text" placeholder="What's on your mind?" id="username" name="username">
+      </form>
+      <img src="images/addimg.png" class="addImg">
+    </div>
+
+  </div>
+
+  <br>
+
+  <!-- Story Carousel -->
+  <div class="grid carousel pad">
+
+    <!-- Story Cards -->
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story1.png">
+    </div>
+
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story2.png">
+    </div>
+
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story3.png">
+    </div>
+
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story4.png">
+    </div>
+
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story5.png">
+    </div>
+
+  </div>
+
+  <br>
+
+  <!-- Posts -->
+  <div class="grid posts">
+    <img src="images/cookingtree.jpg" class="pfp span1 pad">
+
+    <div class="grid span2 pA">
+      <p class="span6 username arial">Cooking Tree</p>
+      <div class="grid span6">
+        <p class="date arial">1d •</p>
+        <img class="friend" src="images/friend.jpg">
+      </div>
+    </div>
+
+    <div class="span3 more pad">
+      <img class="moreObj" src="images/dot.jpg">
+      <img class="moreObj" src="images/x.jpg">
+    </div>
+
+    <!-- Start of code from https://stackoverflow.com/questions/46603956/scroll-text-up-and-hide-it-as-it-gets-read-using-html5-audio -->
+    <!-- Start of code from https://portalzine.de/dev/html5/hosting-mp3-files-on-google-drive-html5-audio-player/-->
+    <!-- Start of code from https://stackoverflow.com/questions/14356956/playing-audio-after-the-page-loads-in-html -->
+    <audio id="adi" preload="auto" autoplay="autoplay">
+      <source src="https://drive.google.com/file/d/1d-udYGSDijKEu_4_vX1xfh6ljmJd-6zj/preview" />
+    </audio>
+    <!-- End of code from https://stackoverflow.com/questions/14356956/playing-audio-after-the-page-loads-in-html -->
+    <!-- End of code from https://portalzine.de/dev/html5/hosting-mp3-files-on-google-drive-html5-audio-player/-->
+
+    <div class="span6 text-highlight">
+      <p id="ts0" class="span6 captionE cap pad">
+        I made a sweet and creamy chocolate mousse cake~
+      </p>
+      <p id="ts3" class="span6 captionE cap pad">
+        ♥For more detailed recipes and explanations, please click the More button below♥
+      </p>
+      <p id="ts7" class="span6 captionE cap pad">
+        You can fully feel the rich chocolate taste and the gelatin. It's made without gelatin, so it's soft and not
+        sticky, so it melts in your mouth when you eat it~^^
+      </p>
+      <p id="ts16" class="span6 captionE cap pad">
+        Since there's no gelatin, it can easily crumble, so you have to be careful when taking it out of the mold.
+      </p>
+      <p id="ts22" class="span6 captionE cap pad">
+        It's good because it contains a lot of milk, so it's savory and can be made delicious with simple ingredients~~
+      </p>
+      <p id="ts29" class="span6 captionE cap pad">
+        Once you take a bite, it melts your mood and is perfect as a sweet dessert~*^^*
+      </p>
+      <p id="ts33" class="span6 captionE cap pad">
+        --------------------------------------------------------------
+      </p>
+      <p id="ts33.5" class="span6 captionE cap pad">
+        ▶Mold size : 15.5cm x 7.8cm x 6.5cm
+      </p>
+      <p id="ts41" class="span6 captionE cap pad">
+        ▶Ingredients <br>100g Warm whipping cream
+        <br>20g Cocoa powder
+        <br>550g Milk
+        <br>60g Sugar
+        <br>27g Corn starch
+        <br>100g Dark chocolate
+      </p>
+      <p id="ts56.3" class="span6 captionE cap ad">
+        ▶Recipe <br> 1. Sift cocoa powder into warm whipped cream and mix.
+      </p>
+      <p id="ts61" class="span6 captionE cap pad">
+        2. Mix milk, sugar, and cornstarch (1) in a bowl, then put in a pot and boil over low heat while stirring. Then
+        add dark chocolate and boil until slightly thickened.
+      </p>
+      <p id="ts72" class="span6 captionE cap pad">
+        3. Filter through a sieve, place in a mold, cool to room temperature, and harden in the refrigerator for more
+        than 6 hours.
+      </p>
+    </div>
+
+    <!-- End of code from https://stackoverflow.com/questions/46603956/scroll-text-up-and-hide-it-as-it-gets-read-using-html5-audio -->
+
+    <div class="postImgs span6">
+      <img class="postImg1" src="images/CookingTree.png">
+    </div>
+
+    <div class="engagement grid span6 pad">
+      <img src="images/engage.png" alt="reactions" class="span6 react1">
+    </div>
+
+  </div>
+
+  <!-- 
+  <div class="grid span6">
+    <img src="images/bottombar.png" class="span6 bar">
+  </div> -->
+
+  <!-- Only shoes up when speak feature is on / replaces the bottom bar-->
+
+  <div class="">
+    <div class="controller gridControl">
+      <button id="pause" class="controls"><img src="controller/pause.png" class="icon iconActives"></button>
+      <button id="play" class="controls"><img src="controller/play.png" class="icon  activeBtn iconActives"></button>
+      <button id="restart" class="controls"><img src="controller/restart.png" class="icon"></button>
+
+
+      <!-- <button id="reverse" class="controls"><img src="controller/backward.png" class="icon"></button> -->
+      <!-- <button id="foward" class="controls"><img src="controller/foward.png" class="icon"></button> -->
+      <a id="x" class="" href="index.html"><img src="controller/x.png"></a>
+    </div>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+  <!-- Start of code from https://hammerjs.github.io/ -->
+  <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+  <!-- End of code from https://hammerjs.github.io/ -->
+</body>
+
+</html>

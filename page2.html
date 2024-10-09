@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://use.typekit.net/pso1cmb.css">
+  <link rel="icon" type="image/x-icon" href="images/facebookicon.png">
+  <!--code taken from https://www.w3schools.com/html/html_favicon.asp -->
+  <link rel="stylesheet" href="style.css">
+  <title>Facebook</title>
+</head>
+
+<body class="sidebar" onload="restoreScrollPosition()">
+  <!-- Iphone features -->
+  <div class="grid pad topbar">
+    <div class="span3 time sfPro">9:30</div>
+    <img class="span3 battery" src="images/battery.png">
+  </div>
+  <div class="grid pad nav">
+    <a class="span3" href="index.html"><img class="span3" src="images/logo.png"></a>
+
+    <!-- Facebook -->
+    <!-- Nav -->
+    <div class="span3 navBtnGrp">
+      <button class=" navBtn" id="addPost"><img class="threeBtn" src="images/add.jpg"></button>
+      <button class=" navBtn" id="searchBar"><img class="threeBtn" src="images/search.jpg"></button>
+      <button class=" navBtn" id="messenger"><img class="threeBtn" src="images/msg.jpg"></button>
+    </div>
+
+    <hr class="span6">
+
+    <!-- Adding Posts -->
+    <div class="grid span6">
+      <img src="images/pfp.png" class="span1 pfp" alt="pfp">
+      <form class="span5 whatsOnYourMind">
+        <input class="whatsOnYourMind" type="text" placeholder="What's on your mind?" id="username" name="username">
+      </form>
+      <img src="images/addimg.png" class="addImg">
+    </div>
+
+  </div>
+
+  <br>
+
+  <!-- Story Carousel -->
+  <div class="grid carousel pad">
+
+    <!-- Story Cards -->
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story1.png">
+    </div>
+
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story2.png">
+    </div>
+
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story3.png">
+    </div>
+
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story4.png">
+    </div>
+
+    <div class="storyCard">
+      <img class="storyCardImg1 storyImg" src="story/story5.png">
+    </div>
+
+  </div>
+
+  <br>
+
+  <!-- Posts -->
+  <div class="grid posts">
+    <img src="images/cookingtree.jpg" class="pfp span1 pad">
+
+    <div class="grid span2 pA">
+      <p class="span6 username arial">Cooking Tree</p>
+      <div class="grid span6">
+        <p class="date arial">1d •</p>
+        <img class="friend" src="images/friend.jpg">
+      </div>
+    </div>
+
+    <div class="span3 more pad">
+      <img class="moreObj" src="images/dot.jpg">
+      <img class="moreObj" src="images/x.jpg">
+    </div>
+
+    <!-- Pop Up may need adjustments to make it stay in place -->
+    <div class="popUpContainer">
+      <img src="popUp/speak.png" class="popUp">
+      <a id="speak" href="page3.html"></a>
+    </div>
+
+    <div class="captionContainer2 span6" id="captionContainer"><a href="index.html">
+        <p class="span6 caption pad">
+          달콤하고 크리미한 느낌의 초콜릿 무스케이크를 만들었어요~
+        </p>
+        <p class="span6 caption pad">
+          ♥더 자세한 레시피와 설명은 밑에 더보기 버튼 눌러 확인 해 주세요♥
+        </p>
+        <p class="span6 caption pad">
+          진한 초콜릿 맛을 충분히 느낄 수 있고 젤라틴 없이 만들어 탱글하지 않고 부드러운 느낌이라 먹으면 입에서 사르르 녹는 답니다~^^
+        </p>
+        <p class="span6 caption pad">
+          젤라틴 없기 때문에 잘 뭉개질 수 있어 틀에서 꺼낼때 조심히 꺼내야 하는 것 같아요~
+        </p>
+        <p class="span6 caption pad">
+          우유가 많이 들어가서 고소하고 간단한 재료로 맛있게 만들 수 있어 좋더라구요~~
+        </p>
+        <p class="span6 caption pad">
+          한입 먹으면 기분까지 사르르 녹아 달달한 디저트로 딱 좋네요~*^^*
+        </p>
+        <p class="span6 caption pad">
+          --------------------------------------------------------------
+        </p>
+        <p class="span6 caption pad">
+          ▶틀 사이즈 : 15.5 x 7.8 x 6.5cm
+        </p>
+        <p class="span6 caption pad">
+          ▶재료<br>따뜻한 생크림 100g<br>코코아파우더 20g<br>우유 550g<br>설탕 60g<br>옥수수전분 27g<br>다크초콜릿 100g<br>
+        </p>
+        <p class="span6 caption pad">
+          ▶레시피 <br> 1. 따뜻한 생크림에 코코아파우더를 체 쳐 넣고 섞는다.
+        </p>
+        <p class="span6 caption pad">
+          2. 볼에 우유, 설탕, 옥수수전분 (1)을 넣고 섞은 뒤 냄비에 넣고 약불에서 저으며 끓이다가 다크 초콜릿을 넣고 살짝 걸쭉해질 때까지 끓인다.
+        </p>
+        <p class="span6 caption pad">
+          3. 체에 걸러 틀에 넣고 실온에서 식힌 뒤 냉장실에서 6시간 이상 굳힌다
+        </p>
+      </a>
+    </div>
+
+    <div class="postImgs span6">
+      <img class="postImg1" src="images/CookingTree.png">
+    </div>
+
+    <div class="engagement grid span6 pad">
+      <img src="images/engage.png" alt="reactions" class="span6 react1">
+    </div>
+
+  </div>
+
+  <div class="grid span6">
+    <img src="images/bottombar.png" class="span6 bar">
+  </div>
+
+
+
+  <script src="script.js"></script>
+  <!-- Start of code from https://hammerjs.github.io/ -->
+  <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+  <!-- End of code from https://hammerjs.github.io/ -->
+</body>
+
+</html>
